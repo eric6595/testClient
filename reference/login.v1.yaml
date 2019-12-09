@@ -1,0 +1,15 @@
+openapi: 3.0.0
+info:
+  title: login
+  version: '1.0'
+  description: for userlogin
+servers:
+  - url: 'http://localhost:3000'
+paths: {}
+components:
+  schemas: {}
+  securitySchemes:
+    login:
+      name: iu49823jf89j2rj203rji32
+      type: apiKey
+      in: cookie
